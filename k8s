@@ -1,0 +1,3 @@
+- Each pod contains servie account token in the path /var/run/secrets/kubernetes.io/serviceaccount
+- bash-5.0# ls
+            ca.crt     namespace  token
