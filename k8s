@@ -1,3 +1,7 @@
 - Each pod contains servie account token in the path /var/run/secrets/kubernetes.io/serviceaccount
 - bash-5.0# ls
             ca.crt     namespace  token
+
+- Crete jwt token for each token and. each pod can receive kube-api server 
+  curl --insecure https://kubernetess/api/v1/namespaces/default/pods --header = " Authorization Barier: $TOKEN" 
+  
